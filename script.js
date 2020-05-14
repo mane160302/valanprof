@@ -34,7 +34,7 @@ owlpartners.owlCarousel({
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:2500,
+    autoplayTimeout:1800,
     autoplayHoverPause:true,
 	responsiveClass:true,
     responsive:{
