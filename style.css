@@ -175,14 +175,13 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
 .blockInfo{
 	visibility: hidden;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 30%;
+	left: 30%;
 	opacity: 0;
 	transform: translate(-50%, -50%);
 	background: rgba(255,255,255,0.8);
 	padding: 10px;
 	border-radius: 15px;
-	width: 80%;
 }
 .BlockItems:hover img{
 	opacity: 0.5;
@@ -232,7 +231,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   display: block;
   max-width: 100%;
 }
-.projectBlocks{
+.projectBlocks, .footerBlocks{
 	align-items: center;
 	text-align: center;
 }
@@ -290,4 +289,9 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+.footerBlocks form{
+	color:white;
+	background: #ffffff1c;
+	border-radius: 5px;
 }
