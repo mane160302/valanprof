@@ -252,6 +252,7 @@ nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
   max-width: 100%;
 }
 .projectBlocks, .footerBlocks{
+	width:100%;
 	align-items: center;
 	text-align: center;
 }
